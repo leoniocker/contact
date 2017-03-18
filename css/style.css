@@ -1,0 +1,12 @@
+body{
+    background-color:lightblue;
+}
+
+input:focus {
+  background-color:lightyellow;
+  border-bottom: 1px solid green;
+}
+
+.h1 {
+  font: Arial;
+}

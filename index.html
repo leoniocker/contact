@@ -3,18 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Contact us</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div class="wrapper">
     <h1>Contact us</h1>
     <p>For more information, fill up the form. We'll get back to you.</p>
         <form class="" action="https://formspree.io/Leoni.Ocker@posteo.de" method="post">
-        <input type="text" name="Customer Name" placeholder="Firt name" required/>
+        <label for="">Name:</label></br>
+        <input type="text" name="Customer Name" placeholder="First name" required/>
         <input type="text" name="Customer Name" placeholder="Last name" required/>
       </br> </br>
+       <label for="">Your feedback:</label></br>
         <textarea name="Message" placeholder="Please type in your message."rows="8" cols="80"></textarea>
+        </br> </br>
+         <label for="">Your email:</label></br>
         <input type="email" name="email" placeholder="please write here your email" required/>
+        </br> </br>
         <button type="submit" name="button" value="send">Submit</button>
     </form>
+  </div>
   </body>
 </html>
