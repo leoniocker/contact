@@ -7,11 +7,14 @@
   </head>
   <body>
     <h1>Contact us</h1>
-    <p>For more information, fill up the form we'll get back to you.</p>
+    <p>For more information, fill up the form. We'll get back to you.</p>
         <form class="" action="https://formspree.io/Leoni.Ocker@posteo.de" method="post">
-        <input type="text" name="Customer Name" placeholder="Your name"value="">
+        <input type="text" name="Customer Name" placeholder="Firt name" required/>
+        <input type="text" name="Customer Name" placeholder="Last name" required/>
+      </br> </br>
         <textarea name="Message" placeholder="Please type in your message."rows="8" cols="80"></textarea>
-        <button type="submit" name="button">Submit</button>
+        <input type="email" name="email" placeholder="please write here your email" required/>
+        <button type="submit" name="button" value="send">Submit</button>
     </form>
   </body>
 </html>
